@@ -1,0 +1,19 @@
+body{
+    background-image: url(../images/system-g944de2b01_1920.jpg);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li{
+    text-align: start;
+    padding-left: 3rem;
+}
+
+.navbar{
+    border:white solid 1px;
+}
+
+body::before{
+    display: block;
+    content:"";
+    height: 70px;
+}
