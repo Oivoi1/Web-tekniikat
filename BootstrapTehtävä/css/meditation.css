@@ -1,6 +1,7 @@
 body{
     background-image: url(../images/system-g944de2b01_1920.jpg);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow-x:hidden;
 }
 
 li{
@@ -17,3 +18,23 @@ body::before{
     content:"";
     height: 70px;
 }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 80px;
+    width: 80px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+@media screen and (max-width: 768px){
+
+    .carousel-control-prev-icon, .carousel-control-next-icon{
+
+    height: 40px;
+    width: 40px;
+    }
+
+    
+}
+    
